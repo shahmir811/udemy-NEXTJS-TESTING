@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "db:reset": "source scripts/reset-db.sh",
+    "db:reset": "sh scripts/reset-db.sh",
     "dev": "next dev",
     "lint": "next lint",
     "build": "next build",
@@ -45,6 +45,7 @@
     "swr": "^1.2.2"
   },
   "devDependencies": {
+    "@testing-library/cypress": "^8.0.3",
     "@testing-library/jest-dom": "5.16.1",
     "@testing-library/react": "12.1.2",
     "@testing-library/user-event": "13.5.0",
